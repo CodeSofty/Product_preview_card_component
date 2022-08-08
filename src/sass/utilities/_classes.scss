@@ -1,0 +1,78 @@
+@use '../abstract' as *;
+
+/* Utility Classes */
+
+
+//Font Families
+
+.ff-body {
+    font-family: $ff-body;
+}
+
+.ff-heading {
+    font-family: $ff-heading;
+}
+
+.ff-accent {
+    font-family: $ff-accent;
+}
+
+
+// Text Color
+
+.text-primary-400 {
+    color: $clr-primary-400;
+}
+
+.text-neutral-100 {
+    color: $clr-neutral-100;
+}
+
+.text-neutral-500 {
+    color: $clr-neutral-500;
+}
+
+.text-neutral-800 {
+    color: $clr-neutral-800;
+}
+
+// BG Color
+
+.bg-primary-100 {
+    background-color: $clr-primary-100;
+}
+
+
+.bg-neutral-100 {
+    background-color: $clr-neutral-100;
+}
+
+.bg-accent-400 {
+    background-color:  $clr-primary-400;
+}
+
+
+// Font Weight
+
+.fw-regular {
+    font-weight: $fw-regular;
+}
+
+.fw-bold {
+    font-weight: $fw-bold;
+}
+
+
+// Font Size
+
+.fs-primary-heading {
+    font-size: $fs-primary-heading;
+}
+
+.fs-body {
+    font-size: $fs-body;
+}
+
+.fs-accent {
+    font-size: $fs-accent;
+}

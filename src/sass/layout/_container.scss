@@ -1,0 +1,73 @@
+@use '../abstract/' as *;
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: $container-padding;
+}
+
+.card {
+    background-color: $clr-neutral-100;
+    border-radius: $card-br;
+    
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    padding: $card-padding;
+
+    & > * {
+        padding: $tb-padding-smll
+    }
+}
+
+
+
+.img-box, .display-img {
+    border-radius: $img-br;
+}
+
+.display-img{
+    width: 100%;
+}
+
+
+
+@media (min-width: 1440px) {
+    .card{
+        display: flex;
+        flex-direction: row;
+        width: 45%;
+    }
+
+    .card-content {
+        justify-content: space-between;
+        padding: 2rem;
+        margin: auto;
+        gap: 15px;
+    }
+
+    .display-img{
+        width: 50%;
+    }
+
+
+    .fs-primary-heading{
+        font-size: 3rem;
+        line-height: 1;
+    }
+
+    .fs-body {
+        font-size: 1.5rem;
+    }
+
+
+    .img-box, .display-img {
+        border-radius: 15px;
+    }
+}
+
+

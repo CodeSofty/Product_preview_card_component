@@ -1,0 +1,16 @@
+@use '../abstract/' as *;
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: $button-br;
+    border: none;
+    height: 3em;
+    gap: 10px;
+    color: #FFF;
+}
+
+.button:hover {
+    background-color: $clr-active;
+}

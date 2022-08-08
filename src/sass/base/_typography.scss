@@ -1,0 +1,16 @@
+@use '../abstract' as *;
+
+body {
+    font-family: $ff-body;
+    color: $clr-neutral-500;
+    font-size: $fs-body;
+}
+
+.category-heading {
+    margin-left: -5px; 
+    letter-spacing: 5px;
+}
+
+.previous-price {
+    text-decoration: line-through;
+}
