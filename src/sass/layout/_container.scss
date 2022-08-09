@@ -40,7 +40,7 @@
     .card{
         display: flex;
         flex-direction: row;
-        width: 45%;
+        width: 50%;
     }
 
     .card-content {
@@ -52,6 +52,7 @@
 
     .display-img{
         width: 50%;
+        border-radius: 15px 0 0 15px;
     }
 
 
@@ -64,10 +65,6 @@
         font-size: 1.5rem;
     }
 
-
-    .img-box, .display-img {
-        border-radius: 15px;
-    }
 }
 
 
