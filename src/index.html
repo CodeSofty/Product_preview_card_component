@@ -13,9 +13,13 @@
 </head>
 <body>
   <main>
-  <div class="container">
+  <div class="container">    
       <div class="card">
-        <img class='display-img'src="assets/images/image-product-mobile.jpg" alt="A bottle of Gabrielle Essence Eau De Parfum">
+        <picture>
+          <source media="(min-width: 1440px)" srcset="/assets/images/image-product-desktop.jpg" alt="A bottle of Gabrielle Essence Eau De Parfum">
+          <source media="(min-width: 375px)"  srcset="/assets/images/image-product-mobile.jpg" alt="A mobile version of a bottle of Gabrielle Essence Eau De Parfum">
+          <img class='display-img'src="assets/images/image-product-mobile.jpg" alt="A bottle of Gabrielle Essence Eau De Parfum">
+        </picture>
         <div class="card-content"> 
             <h2 class="ff-accent fs-accent fw-regular category-heading">PERFUME</h2>
             <h1 class="ff-heading fs-primary-heading fw-bold text-neutral-800">Gabrielle Essence Eau De Parfum</h1>

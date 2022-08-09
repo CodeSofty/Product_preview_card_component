@@ -25,15 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![](./assets/images/desktop-view-screenshot.png)
+![](./assets/images/mobile-view-screenshot.png)
 
 ### Links
 
@@ -52,60 +45,14 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-I practiced making a layout with flexbox, and learned how much easier it can make some projects while
-minimizing the use of divs.
+I took on this challenge to practice more with flexbox and SASS.
 
-For example, instead of relying on overusing divs for every element and styling and spacing each one by hand.
+- I got more comfortable with how to work with parent-child flexbox relationships
 
-```html
-<div class='card'>
-  <div class='img-container'>
-    <img class='image' src='#' alt=''>
-  </div>
-  <div class='title-box'>
-    <h1 class='primary-title'>Title here</h1>
-    </div>
-    <div class='secondary-title'>
-      <h2 class='secondary-title'>Secondary title here</h2>
-    </div>
-  <div class='text-box'>
-    <p class='some-text'>lorem ipsum</p>
-    </div>
-      <div class='text-box'>
-    <p class='some-text'>lorem ipsum</p>
-    </div>
-</div>
-```
+For example, this makes it much easier to target a parent's children with the parent > * selector
+and then apply styles to a flex parent's children.
 
-
-
-You make it cleaner by removing a lot of the dependancies on divs
-and using Flexbox to turn the elements into flex-items to help with layouts, and add spacing
-to the container's children.
-
-```html
-<div class="card">
-        <img class='display-img'src="assets/images/image-product-mobile.jpg" alt="A bottle of Gabrielle Essence Eau De Parfum">
-        <div class="card-content"> 
-            <h2 class="ff-accent fs-accent fw-regular category-heading">PERFUME</h2>
-            <h1 class="ff-heading fs-primary-heading fw-bold text-neutral-800">Gabrielle Essence Eau De Parfum</h1>
-            <p> A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-              Perfumer-Creator for the House of CHANEL.</p>
-
-            <div class="price-container">
-              <span class="ff-heading fs-primary-heading fw-bold text-primary-400 current-price">
-                $149.99
-              </span>
-              <span class="previous-price">
-                $169.99
-              </span>
-            </div>
-            <button class="fs-accent fw-bold bg-accent-400 button"><img src="assets/images/icon-cart.svg" alt="cart svg">Add to Cart</button>
-        </div>
-    </div>
-  ```
-
-  ```css
+```css
 .card-content {
     display: flex;
     flex-direction: column;
@@ -118,7 +65,7 @@ to the container's children.
 ```
 
 
-I also learned about more recent SASS features like @use and @forward.
+- I learned about more recent SASS features like @use and @forward.
 
 For example instead of something like this
 
@@ -133,11 +80,15 @@ It's better to use the following to prevent name-spacing conflicts.
  @use '../abstract' as a;
 
 ```
+or
 
+```css
+ @use '../abstract' as *; 
+```
 
 
 ## Author
 
-- Website - [Add your name here](https://evanlittlejohn.com/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/CodeSofty)
+- Website - [Evan](https://evanlittlejohn.com/)
+- Frontend Mentor - [@CodeSofty](https://www.frontendmentor.io/profile/CodeSofty)
 
