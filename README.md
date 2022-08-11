@@ -88,6 +88,6 @@ or
 
 ## Author
 
-- Website - [Portflio](https://evanlittlejohn.com/)
+- Website - [Portfolio](https://evanlittlejohn.com/)
 - Frontend Mentor - [@CodeSofty](https://www.frontendmentor.io/profile/CodeSofty)
 
