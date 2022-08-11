@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://preview-product-card.netlify.app/)
 
 ## My process
 
@@ -89,6 +89,6 @@ or
 
 ## Author
 
-- Website - [Evan](https://evanlittlejohn.com/)
+- Website - [Portflio](https://evanlittlejohn.com/)
 - Frontend Mentor - [@CodeSofty](https://www.frontendmentor.io/profile/CodeSofty)
 
